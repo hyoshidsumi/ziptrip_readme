@@ -10,14 +10,16 @@
 #### バッチ処理
 - Celery beat, Redis
 #### 認証
-JWT（メール認証＋Google OAuth）
+- JWT（メール認証＋Google OAuth）
 #### CI/CD
-GitHub Actions（テスト自動化・CIパイプライン）
+- GitHub Actions（テスト自動化・CIパイプライン）
 #### 外部API
 - Google Maps Static API
 #### リバースプロキシ
 - Nginx  
-  バックエンド（Django）とフロントエンド（React）間の通信はNginxをリバースプロキシとして中継、CORS/セキュリティ対策とサービスを分離
+  バックエンド（Django）とフロントエンド（React）間の通信はNginxをリバースプロキシとして中継
+- CORS
+　セキュリティ対策
 #### その他
 - Cloudflare（WAF）
 - Poetry（依存管理）
