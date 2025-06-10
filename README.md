@@ -30,7 +30,7 @@ https://zumi5.com
 #### アカウント
 | ユーザーID | パスワード |
 | --- | --- |
-| test@email.com | 準備中 |
+| test@email.com | _Passw0rd |
 ※Googleアカウントならメール認証をスキップ可能です
 
 #### ご利用手順
